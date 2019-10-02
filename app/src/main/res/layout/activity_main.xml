@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/gojek"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:contentDescription="@string/gojek"
+        app:srcCompat="@drawable/logo_gojek" />
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="191dp"
+        android:layout_height="27dp"
+        android:layout_below="@id/gojek"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="-8dp"
+        android:text="@string/pick_a_service"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/gosend"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/service"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/gosend"
+        app:srcCompat="@drawable/gosend" />
+
+    <TextView
+        android:id="@+id/textgosend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gosend"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="14dp"
+        android:text="@string/instan_courier"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/goride"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/service"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="39dp"
+        android:layout_toEndOf="@id/gosend"
+        android:contentDescription="@string/goride"
+        app:srcCompat="@drawable/goride" />
+
+    <TextView
+        android:id="@+id/textgoride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goride"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@id/textgosend"
+        android:text="@string/transport"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/gofod"
+        android:layout_width="136dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/textgosend"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="53dp"
+        android:contentDescription="@string/gofod"
+        app:srcCompat="@drawable/goffod" />
+
+    <TextView
+        android:id="@+id/textgofod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gofod"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/go_food"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/gomart"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/textgoride"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="48dp"
+        android:layout_toEndOf="@id/gofod"
+        android:contentDescription="@string/gomart"
+        app:srcCompat="@drawable/gomart" />
+
+    <TextView
+        android:id="@+id/textgomart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gomart"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@id/textgofod"
+        android:text="@string/shopping"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

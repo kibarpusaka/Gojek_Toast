@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="header">aku adalah header</string>
+    <string name="gojek">Gojek</string>
+    <string name="pick_a_service">PICK A SERVICE</string>
+    <string name="instan_courier">INSTAN COURIER</string>
+    <string name="gosend">Gosend</string>
+    <string name="goride">Goride</string>
+    <string name="transport">TRANSPORT</string>
+    <string name="gofod">Goffod</string>
+    <string name="go_food">GO_FOOD</string>
+    <string name="gomart">Gomart</string>
+    <string name="shopping">SHOPPING</string>
+</resources>
